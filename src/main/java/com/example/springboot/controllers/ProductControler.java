@@ -17,6 +17,7 @@ import java.util.UUID;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 @RestController
+@CrossOrigin(origins = "http://127.0.0.1:5500/")
 public class ProductControler {
 
     @Autowired
